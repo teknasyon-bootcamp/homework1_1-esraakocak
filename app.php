@@ -1,6 +1,22 @@
-<?php
 
-$age = 25;
+<?php 
+
+$age =25;
+
+if($age >=0 && $age <= 14 ) {
+    echo "Cocuk";
+}
+elseif($age >=15 && $age <= 24) {
+    echo "Genc";
+
+} 
+elseif($age >=25 && $age <= 64) {
+    echo "Yetiskin";
+
+} else 
+   echo "Yasli"
+
+?>
 
 /**
  * Bu ödevde age değişkeni içerisinde yer alan yaş değerinin bulunduğu
